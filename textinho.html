@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textinho // Especial</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <title>Textinho // Especial</title>
     <audio id="musica-fundo" src="music/Adventure time - Everything stays - Instrumental [ slowed reverb ].mp3" loop></audio>
     <script>
         const musica = document.getElementById('musica-fundo');
@@ -39,6 +39,7 @@
         *{
             margin: 0px;
             padding: 0px;
+            user-select: none;
         }
 
         body {
@@ -54,6 +55,7 @@
         div#textinho {
             width: 80vw;
             margin: auto;
+            margin-top: 50px;
             padding-top: 7vw;
         }
 
@@ -62,7 +64,6 @@
             text-align: center;
             font-size: 2.5vw;
             color: white;
-            -webkit-text-stroke: 2 black;
         }
 
         div#botao {
@@ -138,7 +139,7 @@
             Eu só quero te agradecer por tudo, principalmente por ser o meu combustível, a pessoa que sempre esteve comigo, que sempre me apoiou e é o motivo de eu nunca desistir e sempre continuar tentando. Eu sou uma pessoa muito azarada, mas eu tive muita sorte de ter encontrado você... Eu e você estavamos destinados a ser, estavamos escrito nas estrelas... Eu te amo tanto que apenas dizer não me parece o suficiente! Eu te amei ontem, Eu te amo hoje, e vou te amar para todo o sempre!! <3 <br> <br> PS: Essa música de fundo é o toque do "vamos no jardim lá..." que eu sempre canto antes de dormir.
         </p>
         <div id="botao">
-            <a href="index.html" hreflang="pt-br" target="_self" rel="prev">Voltar</a>
+            <a href="javascript:history.back()" hreflang="pt-br" target="_self" rel="prev">Voltar</a>
         </div>
     </div>
 </body>
